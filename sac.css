@@ -1,0 +1,73 @@
+.sac {
+	background: #f7f7f7;
+	box-shadow: 0 0 5px #ccc;
+	-moz-box-shadow: 0 0 5px #ccc;
+	-webkit-box-shadow: 0 0 5px #ccc;
+	border: 1px solid #ddd;
+	border-radius: 0 0 8px 8px;
+	-moz-border-radius: 0 0 8px 8px;
+	-webkit-border-radius: 0 0 8px 8px;
+	position: absolute;
+	border-top: 0;
+	color: #666;
+}
+.sac .close {
+	background: url(/images/closebox.png) no-repeat;
+	position: relative;
+	float: right;
+	top: -15px;
+	right: -15px;
+	height: 30px;
+	width: 30px;
+	margin-bottom: -15px;
+	margin-left: -15px;
+	cursor: pointer;
+}
+.sac .status {
+	padding: 6px 5px 0 5px;
+	text-align: center;
+	font-weight: bold;
+}
+.sac .loading {
+	background: url(/images/ajax_search.gif) no-repeat;
+	display: inline-block;
+	height: 16px;
+	margin-left: 4px;
+	width: 16px;
+	vertical-align: middle;
+}
+.sac .results {
+	border-left: 20px solid #999;
+}
+.sac ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.sac li {
+	margin-left: -20px;
+	border-left: 20px solid #999;
+	padding: 1px 4px;
+}
+.sac li.selected {
+	background: #ddd;
+	border-left: 20px solid #aaa;
+	color: #444;
+	cursor: pointer;
+}
+.sac .add {
+	padding: 5px;
+	position: relative;
+}
+.sac_output {
+	padding: 5px 0;
+}
+.sac_output .delete {
+	background: url(/images/delete.png) no-repeat;
+	cursor: pointer;
+	display: inline-block;
+	height: 16px;
+	margin-left: 4px;
+	width: 16px;
+	vertical-align: middle;
+}
